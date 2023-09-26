@@ -1,0 +1,212 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+
+}
+
+ul, li {
+  display: block;
+}
+ 
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header{
+  background: url('../img/banner.png') no-repeat center top;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+}
+
+.menu li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.menu a{
+  color: white;
+}
+
+.menu {
+  display: flex;
+  column-gap: 35px;
+  margin-left: auto
+}
+
+.logo{
+  width: 150px;
+}
+
+.nav{
+  display: flex;
+  padding-top: 30px;
+}
+
+.uni-title{
+  color: white;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px ;
+}
+
+.uni-text{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 12px 14px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  width: 150px;
+  margin: auto;
+}
+
+.btn:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
+/* Courses We Offer */
+
+.course-we-offer{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.offer-info{
+  text-align: center;
+  font-size: 18px;
+  color: #797878;
+  margin-bottom: 30px;
+}
+
+.intermediate{
+  font-weight: 700;
+  text-align: center;
+}
+
+.columns-text{
+  color: #787878;
+}
+
+.offer-columns{
+  width: 300px;
+  background-color: #f9dfdd;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  margin-right: 50px;
+  align-items: center;
+  border-radius: 2%;
+}
+
+
+.offer-title{
+  text-align: center;
+}
+
+.columnn{
+ margin-left: 55px;
+}
+
+/* Cities */
+
+.london{
+  height: 400px;
+  width: 300px;
+  border-radius: 2%;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.images-set{
+  margin-left: 55px;
+}
+
+.cities-set{
+  height: 350px;
+  width: 1000px;
+  margin-left: 55px;
+}
+
+.online{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0;
+}
+
+.online2{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  padding: 0px;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.bn2{
+  background-image: url(../img/banner2.png);
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 35px;
+  width: 1000px;
+  margin-left: 55px;
+  border-radius: 2%;
+}
+
+/* About Us */
+
+.about-us{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.about-info{
+  color: #787878;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.about-info2{
+  color: #787878;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+
